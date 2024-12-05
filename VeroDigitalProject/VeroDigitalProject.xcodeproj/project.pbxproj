@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		875A4D9B2D007807009209F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875A4D822D007805009209F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875A4D892D007805009209F4;
+			remoteInfo = VeroDigitalProject;
+		};
+		875A4DA52D007807009209F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875A4D822D007805009209F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875A4D892D007805009209F4;
+			remoteInfo = VeroDigitalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		875A4D8A2D007805009209F4 /* VeroDigitalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeroDigitalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		875A4D9A2D007807009209F4 /* VeroDigitalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeroDigitalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		875A4DA42D007807009209F4 /* VeroDigitalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeroDigitalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		877C01982D00B99F007B780A /* Exceptions for "VeroDigitalProject" folder in "VeroDigitalProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 875A4D892D007805009209F4 /* VeroDigitalProject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		875A4D8C2D007805009209F4 /* VeroDigitalProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				877C01982D00B99F007B780A /* Exceptions for "VeroDigitalProject" folder in "VeroDigitalProject" target */,
+			);
+			path = VeroDigitalProject;
+			sourceTree = "<group>";
+		};
+		875A4D9D2D007807009209F4 /* VeroDigitalProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeroDigitalProjectTests;
+			sourceTree = "<group>";
+		};
+		875A4DA72D007807009209F4 /* VeroDigitalProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VeroDigitalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875A4D872D007805009209F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4D972D007807009209F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4DA12D007807009209F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875A4D812D007805009209F4 = {
+			isa = PBXGroup;
+			children = (
+				875A4D8C2D007805009209F4 /* VeroDigitalProject */,
+				875A4D9D2D007807009209F4 /* VeroDigitalProjectTests */,
+				875A4DA72D007807009209F4 /* VeroDigitalProjectUITests */,
+				875A4D8B2D007805009209F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875A4D8B2D007805009209F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875A4D8A2D007805009209F4 /* VeroDigitalProject.app */,
+				875A4D9A2D007807009209F4 /* VeroDigitalProjectTests.xctest */,
+				875A4DA42D007807009209F4 /* VeroDigitalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875A4D892D007805009209F4 /* VeroDigitalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875A4DAE2D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProject" */;
+			buildPhases = (
+				875A4D862D007805009209F4 /* Sources */,
+				875A4D872D007805009209F4 /* Frameworks */,
+				875A4D882D007805009209F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				875A4D8C2D007805009209F4 /* VeroDigitalProject */,
+			);
+			name = VeroDigitalProject;
+			packageProductDependencies = (
+			);
+			productName = VeroDigitalProject;
+			productReference = 875A4D8A2D007805009209F4 /* VeroDigitalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875A4D992D007807009209F4 /* VeroDigitalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875A4DB12D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProjectTests" */;
+			buildPhases = (
+				875A4D962D007807009209F4 /* Sources */,
+				875A4D972D007807009209F4 /* Frameworks */,
+				875A4D982D007807009209F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875A4D9C2D007807009209F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				875A4D9D2D007807009209F4 /* VeroDigitalProjectTests */,
+			);
+			name = VeroDigitalProjectTests;
+			packageProductDependencies = (
+			);
+			productName = VeroDigitalProjectTests;
+			productReference = 875A4D9A2D007807009209F4 /* VeroDigitalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		875A4DA32D007807009209F4 /* VeroDigitalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875A4DB42D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProjectUITests" */;
+			buildPhases = (
+				875A4DA02D007807009209F4 /* Sources */,
+				875A4DA12D007807009209F4 /* Frameworks */,
+				875A4DA22D007807009209F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875A4DA62D007807009209F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				875A4DA72D007807009209F4 /* VeroDigitalProjectUITests */,
+			);
+			name = VeroDigitalProjectUITests;
+			packageProductDependencies = (
+			);
+			productName = VeroDigitalProjectUITests;
+			productReference = 875A4DA42D007807009209F4 /* VeroDigitalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875A4D822D007805009209F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					875A4D892D007805009209F4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					875A4D992D007807009209F4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 875A4D892D007805009209F4;
+					};
+					875A4DA32D007807009209F4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 875A4D892D007805009209F4;
+					};
+				};
+			};
+			buildConfigurationList = 875A4D852D007805009209F4 /* Build configuration list for PBXProject "VeroDigitalProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875A4D812D007805009209F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 875A4D8B2D007805009209F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875A4D892D007805009209F4 /* VeroDigitalProject */,
+				875A4D992D007807009209F4 /* VeroDigitalProjectTests */,
+				875A4DA32D007807009209F4 /* VeroDigitalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875A4D882D007805009209F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4D982D007807009209F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4DA22D007807009209F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875A4D862D007805009209F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4D962D007807009209F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A4DA02D007807009209F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		875A4D9C2D007807009209F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875A4D892D007805009209F4 /* VeroDigitalProject */;
+			targetProxy = 875A4D9B2D007807009209F4 /* PBXContainerItemProxy */;
+		};
+		875A4DA62D007807009209F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875A4D892D007805009209F4 /* VeroDigitalProject */;
+			targetProxy = 875A4DA52D007807009209F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		875A4DAC2D007807009209F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		875A4DAD2D007807009209F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875A4DAF2D007807009209F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeroDigitalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ234G4QA4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeroDigitalProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875A4DB02D007807009209F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeroDigitalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ234G4QA4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeroDigitalProject/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		875A4DB22D007807009209F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeroDigitalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeroDigitalProject";
+			};
+			name = Debug;
+		};
+		875A4DB32D007807009209F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeroDigitalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeroDigitalProject";
+			};
+			name = Release;
+		};
+		875A4DB52D007807009209F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeroDigitalProject;
+			};
+			name = Debug;
+		};
+		875A4DB62D007807009209F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.VeroDigitalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeroDigitalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875A4D852D007805009209F4 /* Build configuration list for PBXProject "VeroDigitalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A4DAC2D007807009209F4 /* Debug */,
+				875A4DAD2D007807009209F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A4DAE2D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A4DAF2D007807009209F4 /* Debug */,
+				875A4DB02D007807009209F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A4DB12D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A4DB22D007807009209F4 /* Debug */,
+				875A4DB32D007807009209F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A4DB42D007807009209F4 /* Build configuration list for PBXNativeTarget "VeroDigitalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A4DB52D007807009209F4 /* Debug */,
+				875A4DB62D007807009209F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875A4D822D007805009209F4 /* Project object */;
+}
